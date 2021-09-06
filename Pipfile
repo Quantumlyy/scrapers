@@ -10,6 +10,9 @@ fastapi = "==0.68.1"
 uvicorn = {extras = ["standard"], version = "==0.15.0"}
 typing = "==3.7.4.3"
 pydantic = "==1.8.2"
+requests = "==2.26.0"
+lxml = "==4.6.3"
+easistent = {git = "https://gitlab.com/franga2000/easistent-py.git"}
 
 [requires]
 python_version = "3.8"
