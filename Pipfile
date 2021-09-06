@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 fastapi = "==0.68.1"
 uvicorn = {extras = ["standard"], version = "==0.15.0"}
+typing = "==3.7.4.3"
+pydantic = "==1.8.2"
 
 [requires]
 python_version = "3.8"
